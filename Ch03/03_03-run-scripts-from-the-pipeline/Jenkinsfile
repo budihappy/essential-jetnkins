@@ -17,10 +17,10 @@ pipeline {
         stage('Make executable') {
             steps {
                 sh('pwd')
-                dir("./Ch03/03_03-run-scripts-from-the-pipeline') {
-                sh('pwd')
-                sh ('ls -la') 
-                sh('chmod +x ./scripts/fibonacci.sh')                    
+                dir("./Ch03/03_03-run-scripts-from-the-pipeline'){
+                    sh('pwd')
+                    sh ('ls -la') 
+                    sh('chmod +x ./scripts/fibonacci.sh')                    
                 }
                 sh('chmod +x ./Ch03/03_03-run-scripts-from-the-pipeline/scripts/fibonacci.sh')
 
