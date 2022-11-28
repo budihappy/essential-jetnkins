@@ -1,5 +1,6 @@
 # 03_04 Add a status badge
 Status Badges are dynamically generated images that communicate whether a build is passing or failing.
+[![Build Status](http://ec2-54-217-37-249.eu-west-1.compute.amazonaws.com/buildStatus/icon?job=fibonacci)](http://ec2-54-217-37-249.eu-west-1.compute.amazonaws.com/job/fibonacci/)
 
 Following is an example status badge for a passing build:
 
