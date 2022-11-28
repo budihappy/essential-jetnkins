@@ -17,6 +17,9 @@ pipeline {
         stage('Make executable') {
             steps {
                 sh('pwd')
+                
+                sh('cd Ch03/03_03-run-scripts-from-the-pipeline/')
+                sh('pwd')
                 sh ('ls -la')
                 sh('chmod +x ./scripts/fibonacci.sh')
             }
